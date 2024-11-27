@@ -117,9 +117,9 @@ input[type="checkbox"]::before {
   height: 2rem;
   font-size: 1.7rem;
   text-align: center;
-  border: 0.06rem solid var(--grey-border);
+  border: 0.06rem solid var(--blue);
   border-radius: 60%;
-  color: transparent;
+  color: var(--white);
 }
 
 input[type="checkbox"]:checked::before {
