@@ -26,4 +26,4 @@ The code make use of the localStorage to save and keep tasks in memory. It sets 
 
 ## Run
 
-Use VS Code and GoLive Extension to play around with this app.
+Use VS Code and Live Server Extension to play around with this app.
