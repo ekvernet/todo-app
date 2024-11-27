@@ -76,7 +76,7 @@ function toggleTask(index) {
 
 function editTask(index) {
   const task = document.getElementById(`task-${index}`);
-  const existingText = tasks[index].text;
+  const existingText = tasks[index].name;
   const inputElement = document.createElement("input");
 
   inputElement.value = existingText;
