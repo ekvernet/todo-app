@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./todo.js" defer></script>
+    <title>ToDo</title>
+  </head>
+  <body>
+    <section class="todo">
+      <h2>Task List</h2>
+      <div class="input">
+        <input
+          type="text"
+          class="text-field"
+          id="textInput"
+          placeholder="Add a new task"
+        />
+        <button class="addButton">Add</button>
+      </div>
+      <ul class="scroll">
+        <li id="taskList"></li>
+      </ul>
+      <div>
+        <hr class="count" />
+        <div class="count-container">
+          <p>Number of tasks is <span id="taskCount">0</span></p>
+          <button id="deleteButton">Delete All</button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <p class="author">EKVernet</p>
+      </div>
+    </footer>
+  </body>
+</html>
